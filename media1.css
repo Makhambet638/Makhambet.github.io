@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-@media screen and (max-width: 480px)
-=======
+
 @media screen and (max-width: 700px)
->>>>>>> c459469 (Your commit message here)
 {  
     html{
         height: 100%;
@@ -24,14 +21,6 @@
         margin: 0 0 1rem 0;
     }
 
-<<<<<<< HEAD
-    .navbar-content ul li a{
-        font-size: 0.8rem;
-    }
-
-    .navbar-content ul li{
-        margin:0.3rem;
-=======
     .nav-button{
         display: block;
         position: fixed;
@@ -67,7 +56,6 @@
 
     .nav-link.active{
         color: black;
->>>>>>> c459469 (Your commit message here)
     }
  
     .main-container{
