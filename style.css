@@ -48,7 +48,11 @@ body{
     background-size: cover;
 }
 
+<<<<<<< HEAD
 .navbar-content{
+=======
+.nav-list{
+>>>>>>> c459469 (Your commit message here)
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,16 +60,28 @@ body{
     margin-right: 62px;
 }
 
+<<<<<<< HEAD
 .navbar-content li{
+=======
+.nav-item{
+>>>>>>> c459469 (Your commit message here)
     display: inline-flex;
     margin: 26px;
 }
 
+<<<<<<< HEAD
 .navbar-content li:hover{
     transform: scale(1.1);
 }
 
 .navbar-content li a{
+=======
+.nav-list li:hover{
+    transform: scale(1.1);
+}
+
+.nav-link{
+>>>>>>> c459469 (Your commit message here)
     color: white;
     text-decoration: none;
     font-weight: 400;
@@ -74,6 +90,13 @@ body{
     font-family: Public sans;
 }
 
+<<<<<<< HEAD
+=======
+.nav-button{
+    display: none;
+}
+
+>>>>>>> c459469 (Your commit message here)
 .ml-2{
     margin: 149px 0 0 64px;
 }

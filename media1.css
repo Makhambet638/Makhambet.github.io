@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media screen and (max-width: 480px)
+=======
+@media screen and (max-width: 700px)
+>>>>>>> c459469 (Your commit message here)
 {  
     html{
         height: 100%;
@@ -20,12 +24,50 @@
         margin: 0 0 1rem 0;
     }
 
+<<<<<<< HEAD
     .navbar-content ul li a{
         font-size: 0.8rem;
     }
 
     .navbar-content ul li{
         margin:0.3rem;
+=======
+    .nav-button{
+        display: block;
+        position: fixed;
+        z-index: 7;
+        top: 46px;
+        right: 30px;
+        background: none;
+        border: none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .nav.open .nav-list{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        z-index: 1;
+        padding: 46px 36px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 46px;
+        width: 100%;
+    }
+
+    .nav-link{
+        color: gray;
+    }
+
+    .nav-link.active{
+        color: black;
+>>>>>>> c459469 (Your commit message here)
     }
  
     .main-container{
